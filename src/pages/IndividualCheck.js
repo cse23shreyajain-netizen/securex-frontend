@@ -183,7 +183,7 @@ function Individual() {
 
           <div />
 
-          {/* BIG PROFILE BUTTON */}
+          {/* PROFILE BUTTON */}
 
           <div
             style={styles.profileWrapper}
@@ -347,6 +347,24 @@ function Individual() {
 
         </div>
 
+        {/* FOOTER */}
+
+        <div style={styles.footer}>
+
+          <h2 style={styles.footerTitle}>
+            SecureX AI Cybersecurity Platform
+          </h2>
+
+          <p style={styles.footerText}>
+            Advanced AI-powered cybersecurity dashboard for password intelligence, phishing detection, cyber awareness, intelligent protection systems, and smart security analytics.
+          </p>
+
+          <p style={styles.copy}>
+            © 2026 SecureX. All Rights Reserved.
+          </p>
+
+        </div>
+
       </div>
 
     </div>
@@ -368,10 +386,6 @@ const styles = {
       "rgba(0,0,0,0.72)",
     padding: "30px",
   },
-
-  // ======================
-  // TOP BAR
-  // ======================
 
   topBar: {
     display: "flex",
@@ -414,10 +428,6 @@ const styles = {
     fontWeight: "700",
   },
 
-  // ======================
-  // HEADER
-  // ======================
-
   header: {
     textAlign: "center",
     marginBottom: "50px",
@@ -437,10 +447,6 @@ const styles = {
     lineHeight: "1.8",
     color: "#d1d5db",
   },
-
-  // ======================
-  // DASHBOARD
-  // ======================
 
   topGrid: {
     display: "grid",
@@ -473,10 +479,6 @@ const styles = {
     color: "#d1d5db",
     lineHeight: "1.6",
   },
-
-  // ======================
-  // CARDS
-  // ======================
 
   grid: {
     display: "grid",
@@ -523,6 +525,35 @@ const styles = {
     fontSize: "17px",
     fontWeight: "700",
     cursor: "pointer",
+  },
+
+  footer: {
+    marginTop: "70px",
+    background:
+      "rgba(0,0,0,0.55)",
+    borderRadius: "24px",
+    padding: "40px",
+    textAlign: "center",
+    color: "white",
+  },
+
+  footerTitle: {
+    fontSize: "34px",
+    fontWeight: "800",
+    marginBottom: "18px",
+  },
+
+  footerText: {
+    color: "#d1d5db",
+    maxWidth: "900px",
+    margin: "auto",
+    lineHeight: "1.8",
+    fontSize: "18px",
+  },
+
+  copy: {
+    marginTop: "25px",
+    color: "#9ca3af",
   },
 };
 

@@ -165,7 +165,7 @@ function Profile() {
         const response =
           await axios.post(
 
-            "http://localhost:5000/api/auth/delete-account",
+            "https://securex-backend-mlm3.onrender.com/api/auth/delete",
 
             {
               email:

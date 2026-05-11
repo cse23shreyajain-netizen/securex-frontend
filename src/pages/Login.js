@@ -62,7 +62,7 @@ function Login() {
         const response =
           await axios.post(
 
-            "https://securex-backend-mlm3.onrender.com",
+            "https://securex-backend-mlm3.onrender.com/api/auth/login",
 
             formData
           );

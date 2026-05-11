@@ -38,7 +38,7 @@ function Register() {
     try {
 
       const response = await fetch(
-        "https://securex-backend-mlm3.onrender.com/api/auth/register",
+        "https://securex-backend-mlm3.onrender.com/api/auth/signup",
         {
           method: "POST",
 

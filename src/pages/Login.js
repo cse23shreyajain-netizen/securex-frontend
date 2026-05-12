@@ -103,9 +103,8 @@ function Login() {
           "Login Successful ✅"
         );
 
-        navigate(
-          "/individual"
-        );
+        navigate("/options");
+        
 
       } catch (error) {
 
